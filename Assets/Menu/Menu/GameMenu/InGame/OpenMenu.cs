@@ -8,9 +8,14 @@ public class OpenMenu : MonoBehaviour,IPointerDownHandler
 {
     public Animator animator;
     bool open=true;
-    private void Awake()
+    public bool AnimFaid;
+    private void OnEnable()
     {
-        
+        if (AnimFaid)
+        {
+            animator.Play("CloseMenyInStart");
+            open = true;
+        }
     }
     public void OnPointerDown(PointerEventData eventData)
     {

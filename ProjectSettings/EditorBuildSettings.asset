@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/BJ/Blackdjack/Assets/Blackjack/Scenes/BJ.unity
     guid: 1591dca695b534ef5ac3dd3c8c31f913
   - enabled: 1
-    path: Assets/Solitair/klondike/Solitair.unity
-    guid: e4bc55fa02c30694bae8a925ca6f6696
-  - enabled: 1
     path: Assets/CardGame/Bingo/Scenes/Bingo.unity
     guid: 2498f2e7fd75b7344952cb6ca2134399
+  - enabled: 1
+    path: Assets/Solitair/klondike/Solitair.unity
+    guid: e4bc55fa02c30694bae8a925ca6f6696
   - enabled: 1
     path: Assets/CardGame/Card1/Scenes/Card1.unity
     guid: 215c1dc11b3645348a7c80af1a5656b9

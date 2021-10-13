@@ -110,7 +110,7 @@ namespace BlackDjack
         {
             if (RaitLogic.RaitSelected)
             {
-
+                
                 RaitLogic.GameStart = true;
 
                 _dealer.Deal(_human);

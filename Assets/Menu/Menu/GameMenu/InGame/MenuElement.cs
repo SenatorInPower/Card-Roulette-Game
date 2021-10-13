@@ -6,11 +6,24 @@ using UnityEngine.EventSystems;
 
 public class MenuElement : MonoBehaviour, IPointerDownHandler
 {
+    public bool AnimFaid;
+
+
     Animator animator;
+  
     static MenuElement element;
     private void Awake()
     {
         animator=gameObject.GetComponent<Animator>();
+    }
+    private void OnEnable()
+    {
+        if (AnimFaid)
+        {
+        
+            animator.Play("CloseInStart");
+            element = null;
+        }
     }
     public void OnPointerDown(PointerEventData eventData)
     {
@@ -18,6 +31,7 @@ public class MenuElement : MonoBehaviour, IPointerDownHandler
         {
             if(element!=null)
             element.animator.Play("Close");
+
             AudioEvent.AudioEvents.AudioPlay(AudioAction.ClickToCard);
 
             animator.Play("Open");
