@@ -4,5 +4,5 @@
 # В проект интегрированны платежи и реклама
 
 
-https://user-images.githubusercontent.com/66920423/137445906-3d94c5a1-53fe-4a3f-8bd8-d3428bc4f3f2.mp4
+https://user-images.githubusercontent.com/66920423/137446080-1478b60d-dcb2-4ce1-9978-9178a3530d93.mp4
 
